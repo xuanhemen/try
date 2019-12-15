@@ -17,6 +17,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.title = @"你好";
+    [self viewLayoutMarginsDidChange];
     // Do any additional setup after loading the view.
 }
 
